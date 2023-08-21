@@ -1,16 +1,6 @@
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
-build-mindetach-module = true
-
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-apkmirror-arch = "arm64-v8a"
-included-patches = "custom-branding-icon-revancify-red"
-excluded-patches = "custom-branding-icon-revancify-blue"
+build-mindetach-module = false
 
 [YouTube-Extended] 
 enabled = true
@@ -19,6 +9,5 @@ patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended Fork ReX"
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
